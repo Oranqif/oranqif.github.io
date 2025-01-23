@@ -86,6 +86,79 @@ body {
 
 /* --- */
 
+/* Back */
+#back-top {
+    /* Position & Scale */
+    margin-top: 128px;
+    margin-left: 47.5%;
+}
+
+#back-top a {
+    /* Color */
+    color: #191919;
+    background-color:#fcae1e;
+
+    /* Font & Text */
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    /* Border */
+    border-radius: 10px;
+
+    /* Position & Scale */
+    padding: 10px;
+}
+
+#back-bottom {
+    /* Position & Scale */
+    margin-top: 96px;
+    margin-left: 47.5%;
+    margin-bottom: 64px;
+}
+
+#back-bottom a {
+    /* Color */
+    color: #191919;
+    background-color:#fcae1e;
+
+    /* Font & Text */
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    /* Border */
+    border-radius: 10px;
+
+    /* Position & Scale */
+    padding: 10px;
+}
+
+/* --- */
+
+/* Transition - Back */
+#back-top a:hover,
+#back-bottom a:hover {
+    /* Color */
+    color: #008b8b;
+
+    /* Transition */
+    transition: 0.2s;
+}
+
+#back-top a,
+#back-bottom a {
+    /* Color */
+    color: #191919;
+
+    /* Transition */
+    transition: 0.2s;
+}
+
+/* --- */
+
 /* Container */
 #container {
     /* Color */
@@ -106,7 +179,7 @@ body {
 
     /* Position & Scale */
     width: 40%;
-    padding-top: 96px;
+    padding-top: 32px;
     padding-bottom: 32px;
     margin: auto;
     margin-bottom: 64px;
