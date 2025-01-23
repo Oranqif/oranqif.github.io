@@ -213,6 +213,40 @@ body {
     color: #fcae1e;
 }
 
+#about-skill {
+    /* Display */
+    display: flex;
+    justify-content: space-around;
+}
+
+#about-skill div h3 {
+    /* Font & Text */
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.about-skill-list {
+    /* Position & Scale */
+    margin: 0;
+    padding-left: 40px;
+    
+}
+
+.about-skill-list li:first-child {
+    /* Position & Scale */
+    margin-top: 0px;
+}
+
+.about-skill-list li {
+    /* Position & Scale */
+    margin-top: 20px;
+}
+
+.about-skill-list li img {
+    /* Border */
+    border-radius: 3px;
+}
+
 /* --- */
 
 /* Portfolio */
