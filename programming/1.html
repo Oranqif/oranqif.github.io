@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Thaqif's Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./programming.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Monoton&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <ul id="navbar">
+        <li><a href="https://oranqif.github.io/#contact">Contact</a></li>
+        <li><a href="https://oranqif.github.io/#portfolio">Portfolio</a></li>
+        <li><a href="https://oranqif.github.io/#about">About</a></li>
+        <li><a href="https://oranqif.github.io/#header">Home</a></li>
+        <li>
+            <p>Thaqif Mikail</p>
+        </li>
+    </ul>
+    <div id="container">
+        <h2 id="container-headline">Video Game Online Store</h2>
+        <div id="container-content">
+            <div id="container-content-top">
+                <div>
+                    <h3>Software: <span>Visual Code Studio</span></h3>
+                    <h3>Language: <span>JavaScript (EJS)</span></h3>
+                    <h3>Date: <span>15/07/2024</span></h3>
+                </div>
+                <img style="height:320px" src="../public/programming_ejs0.png" />
+            </div>
+            <div id="container-content-body">
+                <h3>Introduction</h3>
+                <div class="container-content-body-image">
+                    <div>
+                        <img style="height:347.5px; width:633.75px" src="../public/programming_ejs1.jpg" alt="Screenshot of my html for home page" />
+                    </div>
+                </div>
+                <p>
+                    Have you ever wanted an online store that focused on selling products related to gaming?
+                    You can now with this brand new website where you could purchase your physical copy of a game, a console or a figure all from the comfort of your own home.
+                    Try this website today!
+                </p>
+                <h3>About the project</h3>
+                <p>
+                    To clear up any confusion, this website was created to practice utilizing EJS framework, RESTful methods and SQL.
+                    No actual monetization is involved.
+                    <br>
+                    <br>
+                    When I was tasked by my lecturer to create a rudimentary online store, my thought leaned toward video games because I love playing video games. 
+                    So I wanted to create an online store focused on selling gaming products.
+                    <br>
+                    <br>
+                    I started by creating a Home page with a navigation bar that can navigate to six pages.
+                    The pages are laid out like this in order...
+                    <ul style="list-style: square;">
+                        <li>Home</li>
+                        <li>Video Games</li>
+                        <li>Consoles & Controllers</li>
+                        <li>Figures</li>
+                        <li>Cart</li>
+                        <li>Contact</li>
+                    </ul>
+                    The image below was the end result of my implementation...
+                    <br>
+                    <br>
+                    <div class="container-content-body-image">
+                        <div>
+                            <h4>My implementation for the Home page</h4>
+                            <img style="height:347.5px; width:633.75px" src="../public/programming_ejs1.jpg" alt="Screenshot of my html for home page" />
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    Next, to render the page, creating the route to the home page is necessary.
+                    Without it, the application would not render the page because there was no route for it thus did not know that the page existed.
+                    Also, I would have had to implement routing for every new EJS pages created.
+                    The image below was what had happened if there was no routing for the page...
+                    <br>
+                    <br>
+                    <div class="container-content-body-image">
+                        <div>
+                            <h4>This is the result of no routing for the page</h4>
+                            <img style="height:347.5px; width:633.75px" src="../public/programming_ejs2.jpg" alt="Screenshot of my html for home page" />
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    Then, for the Video Game page, it needed to display an item and it has to be inside a card for readability.
+                    Not only that, the page needed to display multiple cards too without the card constricting onto themselves.
+                    To accomplish this, I created the page first that display the item by getting their ID then use CSS flexbox to create the card and a container that dynamically move the cards around depending on how many cards there are.
+                    The images below showed the Video Game page displaying items inside their respective card dynamically...
+                    <br>
+                    <br>
+                    <div class="container-content-body-image">
+                        <div>
+                            <h4>My implementation for Video Game page</h4>
+                            <img style="height:347.5px; width:633.75px" src="../public/programming_ejs3.jpg" alt="Screenshot of my html for home page" />
+                        </div>
+                        <div>
+                            <h4>See how it had displayed the items dynamically?</h4>
+                            <img style="height:347.5px; width:633.75px" src="../public/programming_ejs4.jpg" alt="Screenshot of my html for home page" />
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    Next, it is time to create a page to create, edit, and delete items for the Video Game page with the RESTful api.
+                    REST is a type of software architectural style that emphasises uniform interfaces, independent employement of components and the scalability of interactions between them.
+                    In this case, it was focused on scalability as each of the items need their own page to edit.
+                    I did this by, after creating the ability to add and delete item, implementing a route that allowed one page to edit a chosen item through reading their ID.
+                    Repeat this process for the Consoles & Controllers and the Figurines pages.
+                    The image below is the page for adding, editing and deleting item...
+                    <br>
+                    <br>
+                    <div class="container-content-body-image">
+                        <div>
+                            <h4>The page that can add, edit, and delete item</h4>
+                            <img style="height:347.5px; width:633.75px" src="../public/programming_ejs5.jpg" alt="Screenshot of my html for home page" />
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    Finally, the data for the items have to had come from somewhere.
+                    This is where Structured Query Language (SQL) came into place.
+                    SQL allows for persistent storage even if the website was reloaded as it was stored outside of it.
+                    The images below showed what the database looked like and how it was stored...
+                    <br>
+                    <br>
+                    <div class="container-content-body-image">
+                        <div>
+                            <h4>The database</h4>
+                            <img style="height:347.5px; width:633.75px" src="../public/programming_ejs6.jpg" alt="Screenshot of my html for home page" />
+                        </div>
+                        <div>
+                            <h4>How items were stored in games for the Video Game page</h4>
+                            <img style="height:347.5px; width:633.75px" src="../public/programming_ejs7.jpg" alt="Screenshot of my html for home page" />
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                </p>
+                <h3>Final Version</h3>
+                <div class="container-content-body-video">
+                    <video height="10%" width="100%" controls>
+                        <source src="../public/programming_ejs8.mp4" type="video/mp4">
+                        Your browser does not support video tag
+                    </video>
+                </div>
+                <h3>Conclusion</h3>
+                <p>
+                    This was my first dive into utilizing a framework for JavaScript.
+                    After this project, I can see how frameworks could speed up the development of the project by making it easier to implement certain features that could be hard to do so in vanilla JavaScript.
+                    I had learnt a tons from this experience and I am willing to further expand my knowledge of Embedded JavaScript (EJS) if possible.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>
