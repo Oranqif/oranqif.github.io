@@ -247,6 +247,19 @@ body {
     font-size: 20px;
 }
 
+#container-content-body a {
+    /* Color */
+    color: #191919;
+
+    /* Font & Text */
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+
+    /* Position & Space */
+    margin-left: 235px;
+}
+
 .container-content-body-image {
     /* Font & Text */
     text-align: center;
@@ -276,6 +289,25 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+/* --- */
+
+/* Transition */
+#container-content-body a:hover {
+    /* Color */
+    color:#008080;
+
+    /* Transition */
+    transition: 0.2s;
+}
+
+#container-content-body a {
+    /* Color */
+    color: #191919;
+
+    /* Transition */
+    transition: 0.2s;
 }
 
 /* --- */
